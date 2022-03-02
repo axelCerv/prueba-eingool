@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <title>Eingool</title>
+</head>
+<body>
+    <header class="nav-menu" id="nav-menu">
+        <nav class="nav-content container">
+            <a href="#hero" class="logo">
+                <img src="./img/logo-eingool.png" alt="eingool">
+            </a>
+            <div class="links">
+                <div class="btn-close">
+                    <i class='bx bx-x-circle' ></i>
+                </div>
+                <a href="#" class="active">Eingool</a>
+                <a href="#">Servicios</a>
+                <a href="#">Blog</a>
+                <a href="#">Comienza ahora</a>
+            </div>
+            <div class="btn-menu">
+                <i class='bx bx-menu-alt-right' ></i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="hero" id="hero">
+        <div class="hero-content container">
+            <div class="title-hero">
+                <div class="spin-content">
+                    <div class="spin">
+                        <h2>Crece tu negocio</h2>
+                        <h2>Multiplica tus ventas</h2>
+                        <h2>Enamora a tus clientes</h2>
+                    </div>
+                </div>
+                <h2>con eingool</h2>
+            </div>
+            <div class="btn-contact">
+                <button class="c-button c-button--gooey"> Escríbenos
+                    <i class='bx bxs-comment-dots' ></i>
+                    <div class="c-button__blobs">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                  </button>
+                  <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                      <filter id="goo">
+                        <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+                        <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
+                        <feBlend in2="goo" in="SourceGraphic"></feBlend>
+                      </filter>
+                    </defs>
+                  </svg>
+            </div>
+        </div>
+        
+        <div class="bg-images">
+            <div class="swiper heroSwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/bg-hero3.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/bg-hero1.png" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/bg-hero2.png" alt="">
+                    </div>
+                    
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+        </div>
+    </div>
+
+    <section class="servicios">
+        <div class="servicios-content container">
+            <div class="head-servicios">
+                <h2 class="title-section">Nuestros Servicios</h2>
+                <br>
+                <p>
+                    Si estás pensando en hacer crecer tu Negocio ¡Felicidades! Llegaste al lugar correcto. <br> En Eingool encontrarás el Equipo que te ayudará a impulsar tu marca. 
+                </p>
+            </div>
+            <div class="servicios-items">
+                <div class="servicio-item">
+                    <i class='bx bxs-paint'></i>
+                    <h3>Branding</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias totam commodi nisi atque at aspernatur libero beatae perferendis aperiam consectetur.</p>
+                    <a href="#">More...</a>
+                </div>
+                <div class="servicio-item">
+                    <i class='bx bx-line-chart' ></i>
+                    <h3>Google Ads</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ea veritatis possimus fuga necessitatibus deserunt obcaecati aliquam aliquid a quam!</p>
+                    <a href="#">More...</a>
+                </div>
+                <div class="servicio-item">
+                    <i class='bx bx-code-block' ></i>
+                    <h3>Diseño Web</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ea veritatis possimus fuga necessitatibus deserunt obcaecati aliquam aliquid a quam!</p>
+                    <a href="#">More...</a>
+                </div>
+                <div class="servicio-item">
+                    <i class='bx bx-mobile-vibration' ></i>
+                    <h3>Redes Sociales</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ea veritatis possimus fuga necessitatibus deserunt obcaecati aliquam aliquid a quam!</p>
+                    <a href="#">More...</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="google">
+        <div class="google-content container">
+            
+            <div class="google-video">
+                <iframe width="480" height="270" src="https://www.youtube.com/embed/YLVqPuPvwxw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class="google-info">
+                <p>Te posicionamos en el</p>
+                <p> <span>Primer Lugar</span> de</p>
+                <img src="./img/gif-google.gif" alt="">
+            </div>
+
+        </div>
+    </section>
+
+    <section class="brands">
+        <div class="brands-content container">
+            <h2 class="title-section">Nuestros Clientes</h2>
+            <div class="brands">
+                <div class="swiper brandSwiper">
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                          <div class="brand">
+                              <img src="./img/brands/logo1.png" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="brand">
+                              <img src="./img/brands/logo2.png" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="brand">
+                              <img src="./img/brands/logo3.png" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="brand">
+                              <img src="./img/brands/logo4.png" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="brand">
+                              <img src="./img/brands/logo5.png" alt="">
+                          </div>
+                      </div>
+                      <div class="swiper-slide">
+                          <div class="brand">
+                              <img src="https://st.mextudia.com/wp-content/uploads/2019/02/ucsj.png" alt="">
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="equipo">
+        <div class="equipo-content container">
+            <div class="equipo-info">
+                <h1 class="title-section">Únete a nuestro equipo</h1>
+                <div class="text-equipo">
+                    <p>En Eingool más que sólo una Agencia de Marketing Digital, somos un Equipo de Creativos con la camiseta puesta, listos para cumplir nuestra misión: Ayudar a miles de Empresarios y Emprendedores a convertir su audiencia de manera natural en prospectos, fans y clientes a través de la implementación de exitosas Estrategias de Marketing Digital.</p>
+                    <div class="btn-contact">
+                        <button class="c-button c-button--gooey"> Escríbenos
+                            <i class='bx bxs-comment-dots' ></i>
+                            <div class="c-button__blobs">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                          </button>
+                          <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                              <filter id="goo">
+                                <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+                                <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix" in="blur"></feColorMatrix>
+                                <feBlend in2="goo" in="SourceGraphic"></feBlend>
+                              </filter>
+                            </defs>
+                          </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="equipo-image">
+                <img src="https://static.wixstatic.com/media/6aa6fc_3ed14444305c4862bb0bf44429cf4c59~mv2.jpg/v1/crop/x_143,y_0,w_1443,h_1284/fill/w_445,h_396,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/EINGOOL.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="contacto">
+        <div class="contacto-content container">
+            <h2>¡Contáctanos y trabajemos juntos!</h2>
+            <div class="contacto-info">
+                <div class="datos-contacto">
+                    <div class="item-dato">
+                        <i class='bx bxs-phone'></i>
+                        <div class="datos">
+                            <h4>Llámanos</h4>
+                            <p>(55) 8957 1908 </p>
+                            <p>(55) 8957 1908 </p>
+                        </div>
+                    </div>
+                    <div class="item-dato">
+                        <i class='bx bx-map'></i>
+                        <div class="datos">
+                            <h4>Visítanos</h4>
+                            <p>Periferico Sur 4293, Jardines en la Montaña</p>
+                            <p>Tlalpan, 14210 Ciudad de México, CDMX</p>
+                        </div>
+                    </div>
+                    <div class="item-dato">
+                        <i class='bx bxs-envelope' ></i>
+                        <div class="datos">
+                            <h4>Escríbenos</h4>
+                            <p>contacto@eingool.mx</p>
+                            <p>cotizaciones@eingool.mx</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="formulario-contacto">
+                    <form action="">
+                        <div class="form">                             
+                            <input type="text" placeholder="Nombre" required>
+                            <input type="email" placeholder="Correo" required>
+                            <textarea name="" id="" cols="10" rows="4" placeholder="Escribe tu mensaje"></textarea>
+                        </div>
+                        <button class="enviar-form" type="submit"><i class='bx bx-send' ></i>Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+
+            <a href="#hero" class="logo-footer">
+                <img src="./img/logo-eingool.png" alt="eingool">
+            </a>
+
+            <div class="menu-footer">
+                <a href="#" class="active">Eingool</a>
+                <a href="#">Servicios</a>
+                <a href="#">Blog</a>
+                <a href="#">Comienza ahora</a>
+            </div>
+        </div>
+    </footer>
+    <div class="copyright">
+        <div class="copyright-content container">
+            <div class="copy">
+                <p>@ Copyright 2019 iCreative Capital Business S.A. de C.V.</p>
+            </div>
+            <div class="terms">
+                <a href="">Aviso de Privacidad</a>
+                <a href="">Terminos y condiciones</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------------SCRPITS--------------------------- -->
+    
+    <script src="./main.js"></script>
+    <script type="module">
+        import Swiper from 'https://unpkg.com/swiper@8/swiper-bundle.esm.browser.min.js'
+        var swiper = new Swiper(".heroSwiper", {
+            direction: "vertical",
+            loop: true,
+            autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+            },
+            grabCursor: false,
+        });
+
+        var swiper = new Swiper(".brandSwiper", {
+            slidesPerView: 5,
+            spaceBetween: 50,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            loop: true,
+            breakpoints: {
+                0:{
+                    spaceBetween: 30,
+                    slidesPerView: 2
+                },
+                430:{
+                    slidesPerView: 3
+                },
+                769:{
+                    slidesPerView: 4
+                },
+                1440:{
+                    slidesPerView: 5
+                }
+            }
+        });
+      </script>
+</body>
+</html>
