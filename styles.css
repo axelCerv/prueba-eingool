@@ -718,6 +718,9 @@ html{
         flex-direction: column;
         align-items: flex-end;
     }
+    .logo img{
+        width: 70%;
+    }
 }
 
 @media (max-width:560px) {
@@ -748,5 +751,14 @@ html{
     .item-dato{
         text-align: center;
         align-items: center;
+    }
+}
+@media (max-width:375px) {
+    .title-hero{
+        font-size: 1rem;
+        line-height: 30px;
+    }
+    .spin-content{
+        height: 30px;
     }
 }
