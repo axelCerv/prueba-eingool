@@ -761,4 +761,7 @@ html{
     .spin-content{
         height: 30px;
     }
+    .google-info p{
+        font-size: 1.3rem;
+    }
 }
