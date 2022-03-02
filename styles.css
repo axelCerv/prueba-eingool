@@ -258,7 +258,7 @@ html{
 .servicios-items{
     display: grid;
     gap: 10px;
-    grid-template-columns: repeat(auto-fill,minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fill,minmax(360px, 1fr));
 }
 .servicio-item{
     color: #fff;
@@ -545,6 +545,12 @@ html{
 }
 
 /* --------------------------------------MEDIA QUERYS----------------------------------- */
+
+@media (max-width:1920px) {
+    .servicios-items{
+        grid-template-columns: repeat(auto-fill,minmax(260px, 1fr));
+    }
+}
 
 @media (max-width:1440px) {
     .form input{
